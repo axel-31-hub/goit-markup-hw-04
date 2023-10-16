@@ -49,6 +49,24 @@ body {
   padding-bottom: 25px;
 }
 
+/*menu---index---iconos-----texto*/
+
+.icono{
+fill: #757575; 
+cursor: pointer;
+}
+.iconos:hover .sobre {
+  fill: #2196F3;
+}
+.sobre:hover{
+  fill: #2196F3;
+}
+.telefono_inteligente{
+  color: #757575;
+}
+.telefono_inteligente:hover{
+ fill: #2196F3;
+}
 /* estilos index  */
 
 .container {
@@ -104,7 +122,7 @@ body {
   letter-spacing: 0.28px;
 }
 .text-color:hover {
-  color: blue;
+  color: #2196F3;
 }
 .box_icono{
   width: 270px;
@@ -194,11 +212,6 @@ width: 370px;
 height: 404px;
 }
 
-.border_item{
-  
-}
-
-.item:hover,
 .item:focus {
   
 box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
@@ -328,11 +341,11 @@ line-height: 24px; /* 171.429% */
 letter-spacing: 0.42px;
 }
 .item__text {
- /* max-width: 1200px;*/
   display: flex;
   justify-content: center;
   align-items: center;
   }
+
 .text-titulo {
   color: #212121;
   font-family: Roboto;
@@ -388,9 +401,7 @@ letter-spacing: 0.42px;
     align-items: center;
     cursor: pointer;
   }
-  iconos{
-
-  }
+ 
   .list__iconos:hover {
     background-color: #2196f3;
   }
@@ -504,7 +515,6 @@ background-image: url(../imagen/computador2.jpg);
   }
 
   .border-item{
-   
   border-bottom-style: solid;
   border-bottom-color: #ECECEC;
   width: 322px;
@@ -568,13 +578,7 @@ background-image: url(../imagen/computador2.jpg);
   padding-top: 10px;
   padding-bottom: 80px;
 }
-  /*section footer-----------------*/
 
-  /*.footer__fondo {
-    background: #212121;
-    width: auto;
-    margin: auto;
-  }*/
 
   .test-color__direccion {
   width: 231px;
@@ -697,15 +701,6 @@ background-image: url(../imagen/computador2.jpg);
 .list_iconos_red:hover {
   fill: #ffffff;
   background-color: #2196f3;
-  border-radius: 50%;
-}
-.iconos_red:hover {
-  fill: #ffffff;
-  background-color: #2196f3;
-  border-radius: 50%;
-}
-.iconos_red:hover . {
-  fill: #fff;
   border-radius: 50%;
 }
 
