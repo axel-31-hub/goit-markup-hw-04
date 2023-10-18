@@ -142,7 +142,6 @@ padding-bottom: 30px;
   border-radius: 4px;
   border: none;
 background: #2196F3;
-
 /* shadow-middle */
 box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 
@@ -205,8 +204,7 @@ letter-spacing: 0.48px;
   /*flex-basis: calc((100% - 20px) / 3);*/
   border-radius: 4px;
   border: 1px solid #EEE;
-background: #FFF;
-border-bottom: 3px solid #eee;
+  background: #FFF;
 margin-bottom: 30px;
 margin-right: 5px;
 margin-left: 25px;
@@ -214,10 +212,11 @@ width: 370px;
 height: 404px;
 }
 
-.item:focus {
-  
+.item:hover  {
+  border: 1px solid #EEE;
+background: #FFF;
 box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-    cursor: pointer;
+cursor: pointer;
 }
 .item h3 {
   padding: 12px 10px 12px 10px;
@@ -516,9 +515,8 @@ background-image: url(../imagen/computador2.jpg);
   }
 
   .border-item{
-  border-bottom-style: solid;
-  border-bottom-color: #ECECEC;
-  width: 322px;
+  border:1px solid transparent;
+ display: block;
   }
 
   /*section 5------cliente regular"-------------------*/
@@ -699,7 +697,7 @@ background-image: url(../imagen/computador2.jpg);
   color: rgba(175, 177, 184, 1);
   fill: #ffffff;
 }
-.list_iconos_red:hover {
+.list_iconos_red:hover{
   fill: #ffffff;
   background-color: #2196f3;
   border-radius: 50%;
