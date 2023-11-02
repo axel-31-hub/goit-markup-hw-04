@@ -585,6 +585,8 @@ body {
   font-weight: 700;
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.96px;
+  border-radius: 1px;
+  border: transparent;
 }
 .button__hero:hover {
   background: var(--colo--web--blue);
